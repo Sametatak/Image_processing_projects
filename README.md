@@ -3,7 +3,9 @@ Kivi task solutians
 
 # Task 1
 -This repository contains an implementation of the double three-step phase-shifting algorithm for fringe pattern analysis, reproducing the methodology outlined in the reference [HHC02]. It's designed to operate in an ideal setting, with patterns and computations that adhere strictly to the described theoretical models.
+
 -The primary objective is to faithfully implement the double three-step phase-shifting algorithm, generate synthetic sinusoidal patterns, compute phase maps, and average these maps to obtain a single, unwrapped phase map free from discontinuities.
+
 -The code in my /task1/main.cpp file generate 6 synthetic sinusoidal patterns then using the formula in figure 7 computes two phase maps of each three pattern.
 
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/62dbb1f4-5aae-4d79-aa87-c5a30a1b82cc)
