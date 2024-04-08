@@ -2,11 +2,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
 
-left_uwp_map = pd.read_csv('C:/Users/samet/Desktop/opencvtest/task3/right_uwp_map.csv', header=None)
-right_uwp_map = pd.read_csv('C:/Users/samet/Desktop/opencvtest/task3/right_uwp_map.csv', header=None)
-filtered_uwp_map = pd.read_csv('C:/Users/samet/Desktop/opencvtest/task3/disparity_map.csv', header=None)
+left_uwp_map = pd.read_csv('/right_uwp_map.csv', header=None)
+right_uwp_map = pd.read_csv('/right_uwp_map.csv', header=None)
+filtered_uwp_map = pd.read_csv('/disparity_map.csv', header=None)
 
-# Plot both phase maps for visual inspection
+
 fig, axes = plt.subplots(1, 3, figsize=(20, 10))
 sns.heatmap(left_uwp_map, ax=axes[0], cmap='viridis')
 axes[0].set_title('Left Camera Phase Map')

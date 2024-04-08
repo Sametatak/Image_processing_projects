@@ -4,7 +4,7 @@ project(opencvtest VERSION 0.1.0)
 include(CTest)
 enable_testing()
 
-set(OpenCV_DIR "C:/Users/samet/Desktop/opencv/build")
+set(OpenCV_DIR "kivi_task/build")
 find_package(OpenCV REQUIRED)
 
 # Use the variable set by find_package to include OpenCV directories
