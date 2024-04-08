@@ -1,8 +1,9 @@
 # kivi_task
 Kivi task solutians
 # Task 2
-![image](https://github.com/Sameta![Ekran görüntüsü 2024-04-08 190435](https://github.com/Sametatak/kivi_task/assets/50046275/382e393c-5c7a-492f-9051-dbb9604f4b0e)
-tak/kivi_task/assets/50046275/41744434-9b4c-4688-b976-8ee4c3dcff65)
+![Ekran görüntüsü 2024-04-08 190435](https://github.com/Sametatak/kivi_task/assets/50046275/8f05071d-aa79-4d1f-977c-3d4a52ef90c9)
+![Ekran görüntüsü 2024-04-08 190621](https://github.com/Sametatak/kivi_task/assets/50046275/14954651-f951-4ab2-9a2c-ecfb11a77e17)
+
 
 # Task 3 
 
