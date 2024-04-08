@@ -18,7 +18,7 @@ Kivi task solutians
  -
 This step utilizes a phase unwrapping technique leveraging wrapped phase maps constrained between −π and π and fringe order patterns encoded in Gray code. The procedure involves decoding seven Gray-coded binary images into a decimal matrix, indicative of fringe orders, which corresponds to unique wave periods and increments every 10 pixels. This matrix assists in unwrapping the phase map by adding 2πK per pixel, with K being the fringe order, to yield a continuous phase profile across a single row, evidenced by a smoothly varying plot. But I could not achieve a successful result, I had some mistakes unwrapping the phase map and instead of a smoothline I got this pattern in figure 1
 
-![Ekran görüntüsü 2024-04-09 002439](https://github.com/Sametatak/kivi_task/assets/50046275/9b9629b5-5f09-4153-844e-9898cb4ecbeb)
+![image](https://github.com/Sametatak/kivi_task/assets/50046275/7af92d67-c557-4654-944f-c22a45ca80b7)
 _figure 1. resulting plot_
 # Task 2
 ![Ekran görüntüsü 2024-04-08 190435](https://github.com/Sametatak/kivi_task/assets/50046275/8f05071d-aa79-4d1f-977c-3d4a52ef90c9)
