@@ -43,7 +43,8 @@ _figure 2 filtered point cloud_
 # Task 3 
 -In task 3 we have  two distinct unwrapped phase map images that represent the phase maps captured from the left and right camera setups. The goal of the task is develop an algorithm that effectively matches pixels between two unwrapped distorted phase map images obtained from left and right cameras.
 
-- the resulting disparity map is very close to the zero matrix but it has very small noise
+- I first computes disparity by finding the minimum difference in intensity for each pixel in the left image against all pixels in the same row in the right image.
+The resulting map shows horizontal displacement (disparity) values. Then I used a filter to clear the residual noise the resulting disparity map is very close to the zero matrix but it has very small noise. I shared the resulting images and final disparity csv file. 
 
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/283f7b5d-41ea-4740-8609-a7aafd9ab72f)
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/589dfb1f-614c-4db8-b36c-dd96ad26e97f)
