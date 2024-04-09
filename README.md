@@ -22,7 +22,7 @@ This step utilizes a phase unwrapping technique leveraging wrapped phase maps co
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/7af92d67-c557-4654-944f-c22a45ca80b7)
 _figure 1. resulting plot_
 # Task 2
--The goal of task 2 is implementing e 3-D bilateral filter to provided .ply file. I wrote the filter as descripted in Bilateral Mesh Denoising article. The formula I used in filter is in figure 2 
+-The goal of task 2 is implementing e 3-D bilateral filter to provided .ply file. I wrote the filter as described in Bilateral Mesh Denoising article. The formula of the filter is in figure 2 
 
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/4527ec5c-b8db-4745-b879-651b8b735725)
 
@@ -41,5 +41,11 @@ _figure 2 filtered point cloud_
 
 
 # Task 3 
+-In task 3 we have  two distinct unwrapped phase map images that represent the phase maps captured from the left and right camera setups. The goal of the task is develop an algorithm that effectively matches pixels between two unwrapped distorted phase map images obtained from left and right cameras.
 
-![Ekran görüntüsü 2024-04-08 185133](https://github.com/Sametatak/kivi_task/assets/50046275/3242386f-1d0d-455d-95d5-b0a24633aadc)
+- the resulting disparity map is very close to the zero matrix but it has very small noise
+
+![image](https://github.com/Sametatak/kivi_task/assets/50046275/283f7b5d-41ea-4740-8609-a7aafd9ab72f)
+![image](https://github.com/Sametatak/kivi_task/assets/50046275/589dfb1f-614c-4db8-b36c-dd96ad26e97f)
+
+
