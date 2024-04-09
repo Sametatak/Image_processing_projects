@@ -11,6 +11,7 @@ Kivi task solutians
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/62dbb1f4-5aae-4d79-aa87-c5a30a1b82cc)
 
 -Then Obtain the averaged single phase maps according to the paper by simply taking arithmetic mean of two maps.
+
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/3cd36da2-2f2b-4ce1-a8c4-5deaa826d237)
  _avaraged phase map_
 
@@ -22,12 +23,16 @@ This step utilizes a phase unwrapping technique leveraging wrapped phase maps co
 _figure 1. resulting plot_
 # Task 2
 -The goal of task 2 is implementing e 3-D bilateral filter to provided .ply file. I wrote the filter as descripted in Bilateral Mesh Denoising article. The formula I used in filter is in figure 2 
+
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/4527ec5c-b8db-4745-b879-651b8b735725)
+
 _figure 2_
 
 -After implementing the filter to provided point cloud(figure 1) we can see that in the result (figure 2) the noise is increased
+
 ![Ekran görüntüsü 2024-04-08 190621](https://github.com/Sametatak/kivi_task/assets/50046275/14954651-f951-4ab2-9a2c-ecfb11a77e17)
 _figure 1 provided point cloud_
+
 ![Ekran görüntüsü 2024-04-08 190435](https://github.com/Sametatak/kivi_task/assets/50046275/8f05071d-aa79-4d1f-977c-3d4a52ef90c9)
 _figure 2 filtered point cloud_
 
