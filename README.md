@@ -1,5 +1,5 @@
-# kivi_task
-Kivi task solutians
+# kivi_Task
+
 
 # Task 1
 -This repository contains an implementation of the double three-step phase-shifting algorithm for fringe pattern analysis, reproducing the methodology outlined in the reference [HHC02]. It's designed to operate in an ideal setting, with patterns and computations that adhere strictly to the described theoretical models.
