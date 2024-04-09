@@ -10,7 +10,7 @@ Kivi task solutians
 
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/62dbb1f4-5aae-4d79-aa87-c5a30a1b82cc)
 
--Then Obtain the averaged single phase maps according to the paper by simply taking arithmetic mean of two maps.
+-Then we Obtain the averaged single phase maps according to the paper by simply taking arithmetic mean of two maps.
 
 ![image](https://github.com/Sametatak/kivi_task/assets/50046275/3cd36da2-2f2b-4ce1-a8c4-5deaa826d237)
  _avaraged phase map_
