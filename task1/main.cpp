@@ -77,7 +77,8 @@ int main() {
     
     cv::imwrite("phase_map_avg.png", displayPhaseMap);
     cv::imwrite("phase_map_2.png", displayPhaseMap2);
-
+    cv::imshow("phase_map_avg.png", displayPhaseMap);
+    cv::waitKey(0);
     std::cout << "Average phase map has been saved." << std::endl;
     
     return 0;
