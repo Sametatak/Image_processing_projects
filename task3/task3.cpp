@@ -126,10 +126,6 @@ int main() {
     leftMap.convertTo(leftMap, CV_32F);
     rightMap.convertTo(rightMap, CV_32F);
     std::cout << "leftMap.converted\n";
-    //gauss bluring filter
-    cv::GaussianBlur(leftMap, leftMap, cv::Size(5, 1), 0);
-    cv::GaussianBlur(rightMap, rightMap, cv::Size(5, 1), 0);
-    cv::Mat temp;
     //Generate the disparity map from left and right images for stereo depth estimation.
     cv::Mat disparityMap = computeDisparity(leftMap, rightMap);
     //filter to reduce the noise
